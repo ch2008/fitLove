@@ -1,0 +1,168 @@
+*{
+    margin: left 75px; 
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    /* display: flex; */
+    /* border: 3px solid black; */
+    margin-bottom: 50px;
+}
+#logo{
+    background-image: url(https://media.istockphoto.com/id/1635803948/photo/fitness-workout-healthy-lifestyle-and-clean-eating-concept.webp?b=1&s=170667a&w=0&k=20&c=5IxzqfLy5YibOvONcGZNvWunFMLPklBrKvQRH0Zgajg=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: orange;
+}
+.containers {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 300px;
+    box-shadow: 0px 0px 10px 5px rgb(217, 214, 214);
+}
+
+.containers input {
+    height: 30px;
+    width: 150px;
+   text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    color:rgb(39, 61, 5);
+    border: 1px solid rgba(139, 193, 116, 0.647);
+
+}
+p{
+    color: brown;
+}
+
+.results button {
+    background-color: rgba(255, 166, 0, 0.728);
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+
+
+}
+
+.hello{
+    
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.container{
+    max-width:80vw ;
+    margin-left: 112px;
+  
+}
+.navbar{
+    display: flex;
+    height: 67px; 
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar li {
+    list-style: none;
+margin:0 12px ;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+scroll-timeline: 30s;
+
+}
+.topleft{
+width:50%;
+}
+
+.topright{
+    width:50%;
+
+    }
+.topright img{
+    width: 300px;
+    height: auto;
+}
+.section1{
+    height:700px; 
+    background-image:url(https://images.pexels.com/photos/10791062/pexels-photo-10791062.jpeg?auto=compress&cs=tinysrgb&w=600) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom:  50px;
+}
+button{
+    height: 40px; 
+    width: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(135, 207, 235, 0.338);
+    color: orange
+    
+}
+
+
+
+.mainbox{
+    
+   
+    width: 700px;;
+    justify-content:space-between ;
+    align-items: center;
+    margin-left: 160px;
+    
+
+}
+.box1{
+    height: 250px;
+    width: 200px; 
+    border:2px solid black ;
+ }
+.box1 img{
+    height: 250px;
+    width: 200px;
+}
+.box2{
+    height: 250px;
+    width: 200px; 
+    border:2px solid black ;
+}
+.box2 img{
+    height: 250px;
+    width: 200px;
+}
+.box3{
+    display: flex;
+   height: 250px;
+    width: 200px; 
+}
+.box3 img{
+    height: 250px;
+    width: 200px;
+}
+
+  @media all and(max-width:  768px){
+ 
+    .section1{
+        background-color: blueviolet;
+    }
+
+}
